@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono, Pacifico } from "next/font/google";
 import "./globals.css";
-import Script from 'next/script';
 
 const pacifico = Pacifico({
   weight: '400',
@@ -36,16 +35,24 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} ${pacifico.variable} antialiased`}
       >
         {children}
-        <Script 
-          src="https://readdy.ai/api/public/assistant/widget?projectId=0361743c-d6ab-494c-8439-5a780936c064"
-          strategy="afterInteractive"
-          mode="hybrid"
-          voice-show-transcript="true"
-          theme="light"
-          size="compact"
-          accent-color="#16a34a"
-          button-base-color="#15803d"
-          button-accent-color="#ffffff"
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              (function() {
+                var script = document.createElement('script');
+                script.src = 'https://readdy.ai/api/public/assistant/widget?projectId=0361743c-d6ab-494c-8439-5a780936c064';
+                script.setAttribute('mode', 'hybrid');
+                script.setAttribute('voice-show-transcript', 'true');
+                script.setAttribute('theme', 'light');
+                script.setAttribute('size', 'compact');
+                script.setAttribute('accent-color', '#16a34a');
+                script.setAttribute('button-base-color', '#15803d');
+                script.setAttribute('button-accent-color', '#ffffff');
+                script.defer = true;
+                document.body.appendChild(script);
+              })();
+            `,
+          }}
         />
       </body>
     </html>
