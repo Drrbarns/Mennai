@@ -1,0 +1,141 @@
+'use client';
+
+import { useState } from 'react';
+import ScrollAnimation from '../../components/ScrollAnimation';
+
+export default function CompanyHistory() {
+  const [imageErrors, setImageErrors] = useState<Record<string, boolean>>({});
+
+  const milestones = [
+    {
+      year: "2009",
+      title: "Farm Establishment",
+      description: "Founded Mennai Farms in Marfokrom with initial 50 acres of pineapple cultivation. Our journey began with a vision to produce world-class pineapples while supporting our local community.",
+      image: "https://readdy.ai/api/search-image?query=Small%20pineapple%20farm%20field%20in%20Ghana%20with%20young%20pineapple%20plants%20being%20planted%20by%20African%20farmers%2C%20humble%20beginnings%20agricultural%20scene%2C%20rural%20Ghana%20countryside%2C%20founders%20working%20in%20the%20field%2C%20early%20stages%20of%20pineapple%20cultivation%2C%20traditional%20farming%20methods%2C%20small%20scale%20pineapple%20plantation&width=800&height=500&seq=journey-2009&orientation=landscape",
+      fallbackImage: "https://images.unsplash.com/photo-1625246333195-78d9c38ad449?w=800&h=500&fit=crop",
+      icon: "ri-seedling-line"
+    },
+    {
+      year: "2012", 
+      title: "Organic Certification",
+      description: "Achieved organic certification and expanded to 200 acres with sustainable practices. This milestone marked our commitment to environmental stewardship.",
+      image: "https://readdy.ai/api/search-image?query=Organic%20pineapple%20farming%20in%20Ghana%20showing%20sustainable%20agricultural%20practices%2C%20organic%20certification%20sign%20at%20farm%2C%20eco-friendly%20pineapple%20cultivation%2C%20natural%20farming%20methods%2C%20compost%20piles%2C%20organic%20pineapple%20plants%20growing%20naturally%2C%20sustainable%20agriculture%20in%20Ghana&width=800&height=500&seq=journey-2012&orientation=landscape",
+      fallbackImage: "https://images.unsplash.com/photo-1464226184884-fa280b87c399?w=800&h=500&fit=crop",
+      icon: "ri-leaf-line"
+    },
+    {
+      year: "2016",
+      title: "Export Market Entry", 
+      description: "Began exporting premium pineapples to international markets in Europe and North America. Our quality standards opened doors to global opportunities.",
+      image: "https://readdy.ai/api/search-image?query=Fresh%20pineapples%20being%20packed%20into%20export%20containers%20at%20Ghana%20port%2C%20international%20shipping%20containers%20with%20pineapples%2C%20workers%20packing%20premium%20pineapples%20for%20export%2C%20quality%20control%20inspection%2C%20export%20logistics%20pineapple%20farm%20Ghana%2C%20international%20trade%20operations&width=800&height=500&seq=journey-2016&orientation=landscape",
+      fallbackImage: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&h=500&fit=crop",
+      icon: "ri-plane-line"
+    },
+    {
+      year: "2020",
+      title: "Technology Integration",
+      description: "Implemented modern irrigation systems and precision agriculture techniques. Technology became our ally in sustainable farming.",
+      image: "https://readdy.ai/api/search-image?query=Modern%20drip%20irrigation%20systems%20in%20pineapple%20plantation%20Ghana%2C%20automated%20irrigation%20equipment%2C%20precision%20agriculture%20technology%20in%20pineapple%20farming%2C%20solar-powered%20irrigation%20pumps%2C%20smart%20farming%20solutions%2C%20modern%20agricultural%20equipment%20in%20tropical%20farm&width=800&height=500&seq=journey-2020&orientation=landscape",
+      fallbackImage: "https://images.unsplash.com/photo-1625246333195-78d9c38ad449?w=800&h=500&fit=crop",
+      icon: "ri-settings-3-line"
+    },
+    {
+      year: "2024",
+      title: "Expansion & Innovation",
+      description: "Expanded to 500+ acres and launched digital platform for direct buyer connections. Innovation drives our growth forward.",
+      image: "https://readdy.ai/api/search-image?query=Aerial%20view%20of%20expansive%20pineapple%20plantation%20in%20Ghana%20showing%20large%20scale%20farming%20operations%2C%20organized%20rows%20of%20pineapple%20plants%20stretching%20across%20hundreds%20of%20acres%2C%20modern%20agricultural%20infrastructure%2C%20expanded%20farm%20operations%2C%20professional%20pineapple%20plantation%20management&width=800&height=500&seq=journey-2024&orientation=landscape",
+      fallbackImage: "https://images.unsplash.com/photo-1574943320219-553eb213f72d?w=800&h=500&fit=crop",
+      icon: "ri-rocket-line"
+    },
+    {
+      year: "2025",
+      title: "Global Partnership",
+      description: "Established strategic partnerships with international retailers and launched premium product line. Our global presence continues to grow.",
+      image: "https://readdy.ai/api/search-image?query=Business%20meeting%20between%20Ghana%20pineapple%20farm%20representatives%20and%20international%20retailers%2C%20handshake%20agreement%2C%20premium%20pineapple%20products%20display%2C%20global%20partnership%20discussion%2C%20international%20trade%20negotiation%2C%20strategic%20business%20alliance%20in%20agriculture&width=800&height=500&seq=journey-2025&orientation=landscape",
+      fallbackImage: "https://images.unsplash.com/photo-1521737604893-d14cc237f11d?w=800&h=500&fit=crop",
+      icon: "ri-global-line"
+    }
+  ];
+
+  const handleImageError = (year: string) => {
+    setImageErrors(prev => ({ ...prev, [year]: true }));
+  };
+
+  const getImageSrc = (milestone: typeof milestones[0]) => {
+    if (imageErrors[milestone.year]) {
+      return milestone.fallbackImage;
+    }
+    return milestone.image;
+  };
+
+  return (
+    <section className="py-20 md:py-24 bg-white">
+      <div className="container mx-auto px-4">
+        <ScrollAnimation animation="fade-in-up">
+          <div className="text-center mb-16">
+            <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
+              Our <span className="text-green-600">Journey</span>
+            </h2>
+            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+              From humble beginnings to becoming a leading pineapple producer in Ghana, 
+              our story is one of dedication, innovation, and sustainable growth.
+            </p>
+          </div>
+        </ScrollAnimation>
+
+        <div className="max-w-7xl mx-auto">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12">
+            {milestones.map((milestone, index) => (
+              <ScrollAnimation key={milestone.year} animation="scale-in" delay={index * 100}>
+                <div className="group bg-white rounded-2xl overflow-hidden shadow-lg hover-lift transition-all duration-300 border border-gray-100">
+                  {/* Image */}
+                  <div className="relative h-64 overflow-hidden bg-gray-200">
+                    <img
+                      src={getImageSrc(milestone)}
+                      alt={milestone.title}
+                      className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                      loading="lazy"
+                      onError={() => handleImageError(milestone.year)}
+                    />
+                    <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent"></div>
+                    <div className="absolute top-4 right-4">
+                      <div className="bg-white/90 backdrop-blur-sm px-4 py-2 rounded-full shadow-md">
+                        <span className="text-gray-900 font-bold text-lg">{milestone.year}</span>
+                      </div>
+                    </div>
+                    <div className="absolute bottom-4 left-4">
+                      <div className="w-12 h-12 bg-white/90 backdrop-blur-sm rounded-xl flex items-center justify-center shadow-md">
+                        <i className={`${milestone.icon} text-green-600 text-2xl`}></i>
+                      </div>
+                    </div>
+                  </div>
+                  
+                  {/* Content */}
+                  <div className="p-8">
+                    <h3 className="text-2xl font-bold text-gray-900 mb-4 group-hover:text-green-600 transition-colors duration-300">
+                      {milestone.title}
+                    </h3>
+                    <p className="text-gray-600 leading-relaxed text-lg">
+                      {milestone.description}
+                    </p>
+                  </div>
+                </div>
+              </ScrollAnimation>
+            ))}
+          </div>
+
+          {/* Journey Continues */}
+          <ScrollAnimation animation="fade-in-up" delay={600}>
+            <div className="text-center mt-16">
+              <div className="inline-flex items-center space-x-4 bg-gray-50 rounded-full px-8 py-4 border border-gray-200">
+                <div className="w-3 h-3 bg-green-600 rounded-full animate-pulse"></div>
+                <span className="text-gray-700 font-semibold text-lg">The journey continues...</span>
+                <div className="w-3 h-3 bg-yellow-500 rounded-full animate-pulse" style={{ animationDelay: '0.5s' }}></div>
+              </div>
+            </div>
+          </ScrollAnimation>
+        </div>
+      </div>
+    </section>
+  );
+}
