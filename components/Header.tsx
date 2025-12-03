@@ -31,11 +31,11 @@ export default function Header() {
             href="/" 
             className="flex items-center space-x-2 transition-transform duration-300 hover:scale-105"
           >
-            <div className={`text-2xl md:text-3xl font-['Pacifico'] transition-colors duration-300 ${
-              isScrolled ? 'text-green-600' : 'text-green-600'
-            }`}>
-              Mennai Farms
-            </div>
+            <img
+              src="/logo.png"
+              alt="Mennai Farms Logo"
+              className="h-16 md:h-20 lg:h-24 w-auto object-contain"
+            />
           </Link>
 
           <div className="hidden md:block">

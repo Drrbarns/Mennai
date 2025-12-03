@@ -6,7 +6,13 @@ export default function Footer() {
       <div className="container mx-auto px-4 py-12 md:py-16">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 lg:gap-12">
           <div>
-            <div className="text-2xl md:text-3xl font-['Pacifico'] text-green-400 mb-4 transition-transform duration-300 hover:scale-105 inline-block">Mennai Farms</div>
+            <Link href="/" className="inline-block mb-4 transition-transform duration-300 hover:scale-105">
+              <img
+                src="/logo.png"
+                alt="Mennai Farms Logo"
+                className="h-20 md:h-24 w-auto object-contain"
+              />
+            </Link>
             <p className="text-gray-300 mb-6 leading-relaxed">
               Cultivating premium pineapples in Ghana with sustainable farming practices for local and international markets.
             </p>
