@@ -5,7 +5,6 @@ import AboutHero from './AboutHero';
 import CompanyHistory from './CompanyHistory';
 import MissionVision from './MissionVision';
 import SustainabilityPractices from './SustainabilityPractices';
-import TeamSection from './TeamSection';
 
 export const metadata: Metadata = {
   title: "About Us - Our Story & Mission",
@@ -35,7 +34,6 @@ export default function AboutPage() {
       <main>
         <AboutHero />
         <MissionVision />
-        <TeamSection />
         <SustainabilityPractices />
         <CompanyHistory />
       </main>

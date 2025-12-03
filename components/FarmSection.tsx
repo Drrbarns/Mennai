@@ -25,7 +25,7 @@ export default function FarmSection() {
   }, []);
 
   return (
-    <section className="py-20 md:py-24 bg-gradient-to-b from-gray-50 to-white">
+    <section className="py-20 md:py-24 bg-gradient-to-b from-white via-green-50/40 to-white border-t border-green-100/50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
           <ScrollAnimation animation="fade-in-right">

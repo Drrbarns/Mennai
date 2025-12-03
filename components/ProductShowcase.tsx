@@ -3,7 +3,7 @@ import ScrollAnimation from './ScrollAnimation';
 
 export default function ProductShowcase() {
   return (
-    <section className="py-20 md:py-24 bg-gradient-to-b from-white to-gray-50">
+    <section className="py-20 md:py-24 bg-gradient-to-b from-gray-50 via-white to-gray-50 border-t border-gray-200/50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <ScrollAnimation animation="fade-in-up">
           <div className="text-center mb-16">

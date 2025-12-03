@@ -5,7 +5,6 @@ import FarmHero from './FarmHero';
 import FarmStory from './FarmStory';
 import MissionVisionValues from './MissionVisionValues';
 import SustainabilityCommitment from './SustainabilityCommitment';
-import FarmTeam from './FarmTeam';
 import CommunityImpact from './CommunityImpact';
 import PrimeLocation from './PrimeLocation';
 import FarmScale from './FarmScale';
@@ -50,7 +49,6 @@ export default function FarmPage() {
         <FarmingMethods />
         <SustainabilityCommitment />
         <FarmInfrastructure />
-        <FarmTeam />
         <CommunityImpact />
         <FarmGallery />
       </main>

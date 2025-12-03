@@ -2,7 +2,7 @@ import ScrollAnimation from './ScrollAnimation';
 
 export default function WhyChooseUs() {
   return (
-    <section className="py-20 md:py-24 bg-gradient-to-b from-amber-50 to-white">
+    <section className="py-20 md:py-24 bg-gradient-to-b from-yellow-50 via-amber-50 to-yellow-50 border-t border-yellow-100/50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <ScrollAnimation animation="fade-in-up">
           <div className="text-center mb-16">

@@ -3,7 +3,7 @@ import ScrollAnimation from './ScrollAnimation';
 
 export default function ContactSection() {
   return (
-    <section className="py-20 md:py-24 bg-gradient-to-b from-gray-50 to-white">
+    <section className="py-20 md:py-24 bg-gradient-to-b from-yellow-50/50 via-white to-yellow-50/50 border-t border-yellow-100/50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <ScrollAnimation animation="fade-in-up">
           <div className="text-center mb-16">
@@ -65,7 +65,7 @@ export default function ContactSection() {
               
               <div className="bg-gray-200 rounded-xl overflow-hidden h-64 shadow-lg hover:shadow-xl transition-shadow duration-300">
                 <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3970.123456789!2d-0.123456!3d6.123456!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2sMarfokrom%2C%20Ghana!5e0!3m2!1sen!2sgh!4v1234567890"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3970.123456789!2d-0.123456!3d6.123456!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNsKwMDcnMjQuNCJOIDDCsDAwJzAwLjAiVw!5e0!3m2!1sen!2sgh!4v1234567890123"
                   width="100%"
                   height="100%"
                   style={{ border: 0 }}
