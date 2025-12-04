@@ -20,7 +20,7 @@ export default function FarmTeam() {
             <h3 className="text-xl font-semibold text-gray-900 mb-2">Kwame Asante</h3>
             <p className="text-yellow-600 font-medium mb-3">Founder & CEO</p>
             <p className="text-gray-600 text-sm">
-              Agricultural engineer with 15+ years experience in tropical fruit cultivation and sustainable farming practices.
+              Agricultural engineer with extensive experience in tropical fruit cultivation and sustainable farming practices.
             </p>
           </div>
           

@@ -31,7 +31,6 @@ export const metadata: Metadata = {
     "pineapple farm Ghana",
     "premium pineapples",
     "sustainable farming Ghana",
-    "organic pineapples",
     "Ghana pineapple export",
     "Marfokrom pineapple farm",
     "Ayensuano District farming",
@@ -119,11 +118,10 @@ export default function RootLayout({
               addressCountry: "GH",
             },
             areaServed: "Global",
-            foundingDate: "2009",
+          foundingDate: "2017",
             knowsAbout: [
               "Pineapple Farming",
               "Sustainable Agriculture",
-              "Organic Farming",
               "Agricultural Export",
             ],
             sameAs: [

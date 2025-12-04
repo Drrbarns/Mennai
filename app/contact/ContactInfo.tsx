@@ -6,9 +6,9 @@ export default function ContactInfo() {
       title: 'Our Location',
       details: [
         'Mennai Farms Ltd.',
-        'Eastern Region, Ghana',
-        'Near Koforidua Township',
-        'GPS: GE-0234-5678'
+        'Marfokrom, Ayensuano, Eastern, Ghana',
+        'Official Address: Ayensuano, Eastern, Ghana',
+        'Digital Address: EO-0865-9013'
       ]
     },
     {

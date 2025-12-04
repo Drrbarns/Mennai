@@ -8,7 +8,7 @@ export default function SustainabilityCommitment() {
             Our Commitment to <span className="text-green-600">Sustainability</span>
           </h2>
           <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-            Environmental responsibility is at the heart of everything we do. We believe that sustainable farming practices are essential for long-term success and environmental preservation.
+            Environmental responsibility is at the heart of everything we do. We combine practical conventional methods with sustainable, organic-inspired practices that fit our local conditions.
           </p>
         </div>
         
@@ -21,7 +21,7 @@ export default function SustainabilityCommitment() {
             </div>
             <h3 className="text-lg font-semibold text-gray-900 mb-3">Water Conservation</h3>
             <p className="text-gray-600 text-sm">
-              Drip irrigation systems and rainwater harvesting reduce water usage by 40% compared to traditional methods.
+              Careful field planning and water-conscious practices help us use rainfall efficiently and reduce unnecessary water use.
             </p>
           </div>
           
@@ -31,9 +31,9 @@ export default function SustainabilityCommitment() {
                 <i className="ri-leaf-line text-green-600 text-2xl"></i>
               </div>
             </div>
-            <h3 className="text-lg font-semibold text-gray-900 mb-3">Organic Practices</h3>
+            <h3 className="text-lg font-semibold text-gray-900 mb-3">Balanced Practices</h3>
             <p className="text-gray-600 text-sm">
-              Natural composting and minimal chemical use maintain soil health and produce cleaner, safer fruits.
+              Natural composting and responsible use of conventional inputs maintain soil health and produce safe, high-quality fruits.
             </p>
           </div>
           
@@ -45,7 +45,7 @@ export default function SustainabilityCommitment() {
             </div>
             <h3 className="text-lg font-semibold text-gray-900 mb-3">Waste Reduction</h3>
             <p className="text-gray-600 text-sm">
-              Zero-waste philosophy with complete utilization of plant materials for composting and biomass energy.
+              We work to reduce waste by re-using plant materials where possible and turning residues back into the field to support soil health.
             </p>
           </div>
           

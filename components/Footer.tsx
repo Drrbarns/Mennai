@@ -92,7 +92,7 @@ export default function Footer() {
             <ul className="space-y-3">
               <li className="text-gray-300 hover:text-green-400 transition-colors duration-300 cursor-default">Fresh Pineapples</li>
               <li className="text-gray-300 hover:text-green-400 transition-colors duration-300 cursor-default">Export Quality</li>
-              <li className="text-gray-300 hover:text-green-400 transition-colors duration-300 cursor-default">Organic Produce</li>
+              <li className="text-gray-300 hover:text-green-400 transition-colors duration-300 cursor-default">Premium Produce</li>
               <li className="text-gray-300 hover:text-green-400 transition-colors duration-300 cursor-default">Bulk Orders</li>
             </ul>
           </div>
@@ -104,7 +104,10 @@ export default function Footer() {
                 <div className="w-6 h-6 flex items-center justify-center mt-0.5 group-hover:scale-110 transition-transform duration-300">
                   <i className="ri-map-pin-line text-green-400"></i>
                 </div>
-                <span className="text-gray-300 group-hover:text-white transition-colors duration-300">Marfokrom, Ayensuano District, Eastern Region, Ghana</span>
+                <span className="text-gray-300 group-hover:text-white transition-colors duration-300">
+                  Ayensuano, Eastern, Ghana<br />
+                  Digital Address: EO-0865-9013
+                </span>
               </div>
               <div className="flex items-center space-x-3 group">
                 <div className="w-6 h-6 flex items-center justify-center group-hover:scale-110 transition-transform duration-300">

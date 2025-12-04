@@ -4,53 +4,52 @@ export default function SustainabilityPractices() {
   const practices = [
     {
       icon: 'ri-drop-line',
-      title: 'Water Conservation',
-      description: 'Advanced drip irrigation systems reduce water usage by 40% while maintaining optimal crop hydration.',
-      stat: '40%',
-      statLabel: 'Water Saved'
+      title: 'Water-Conscious Farming',
+      description: 'Careful field planning and timing help us make the most of natural rainfall and avoid unnecessary water use.',
+      stat: 'Smart',
+      statLabel: 'Rainfall Use'
     },
     {
       icon: 'ri-recycle-line',
-      title: 'Organic Composting',
-      description: 'Converting farm waste into nutrient-rich compost, eliminating the need for synthetic fertilizers.',
-      stat: '100%',
-      statLabel: 'Waste Recycled'
+      title: 'Composting & Soil Care',
+      description: 'We convert farm waste into nutrient-rich compost and focus on building healthy soils with practices suited to our local conditions.',
+      stat: '500+ tons',
+      statLabel: 'Plant Material Reused'
     },
     {
       icon: 'ri-bug-line',
-      title: 'Natural Pest Control',
-      description: 'Integrated pest management using beneficial insects and organic methods to protect crops naturally.',
-      stat: '0%',
-      statLabel: 'Synthetic Pesticides'
+      title: 'Integrated Pest Management',
+      description: 'Integrated pest management using monitoring, good field hygiene, and targeted treatments to protect crops responsibly.',
+      stat: 'Targeted',
+      statLabel: 'Pest Control'
     },
     {
       icon: 'ri-seedling-line',
       title: 'Soil Health',
-      description: 'Crop rotation and cover cropping practices maintain soil fertility and prevent erosion.',
-      stat: '100%',
-      statLabel: 'Organic Methods'
-    },
-    {
-      icon: 'ri-sun-line',
-      title: 'Solar Energy',
-      description: 'Solar-powered irrigation pumps and processing facilities reduce our carbon footprint significantly.',
-      stat: '60%',
-      statLabel: 'Renewable Energy'
+      description: 'Crop rotation and cover cropping practices help maintain soil fertility and prevent erosion over the long term.',
+      stat: 'Strong',
+      statLabel: 'Soil Structure'
     },
     {
       icon: 'ri-plant-line',
       title: 'Biodiversity',
       description: 'Maintaining natural habitats and wildlife corridors to support local ecosystem balance.',
       stat: '15+',
-      statLabel: 'Species Protected'
+      statLabel: 'Species Supported'
+    },
+    {
+      icon: 'ri-team-line',
+      title: 'Safe Field Practices',
+      description: 'Training our team in safe handling of inputs and careful field work to protect both workers and the environment.',
+      stat: 'Ongoing',
+      statLabel: 'Staff Training'
     }
   ];
 
   const impacts = [
-    { label: '40% reduction in water usage', icon: 'ri-drop-line' },
-    { label: 'Zero synthetic pesticides used', icon: 'ri-shield-check-line' },
-    { label: '60% renewable energy powered', icon: 'ri-sun-line' },
-    { label: '100% organic waste recycled', icon: 'ri-recycle-line' }
+    { label: 'Better use of natural rainfall and field resources', icon: 'ri-drop-line' },
+    { label: 'Responsible use of crop protection products', icon: 'ri-shield-check-line' },
+    { label: '100% organic waste recycled back into fields', icon: 'ri-recycle-line' }
   ];
 
   return (
@@ -126,15 +125,15 @@ export default function SustainabilityPractices() {
               <div className="relative">
                 <div className="rounded-2xl overflow-hidden shadow-2xl group">
                   <img
-                    src="https://readdy.ai/api/search-image?query=Sustainable%20farming%20practices%20in%20Ghana%20pineapple%20plantation%20showing%20solar%20panels%2C%20drip%20irrigation%20systems%2C%20composting%20areas%2C%20workers%20using%20eco-friendly%20methods%2C%20green%20technology%20integration%2C%20environmental%20conservation%2C%20organic%20farming%20techniques%2C%20renewable%20energy%20in%20agriculture&width=600&height=400&seq=sustainability&orientation=landscape"
-                    alt="Sustainable Farming Practices"
+                    src="/pineapples2.jpg"
+                    alt="Sustainable Farming Practices at Mennai Farms"
                     className="w-full h-80 object-cover object-top transition-transform duration-700 group-hover:scale-110"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                 </div>
                 <div className="absolute -bottom-6 -right-6 bg-white rounded-xl p-6 shadow-xl border border-gray-100 hidden lg:block">
-                  <div className="text-3xl font-bold text-green-600 mb-1">15+</div>
-                  <div className="text-sm text-gray-600">Years of Sustainable Practices</div>
+                  <div className="text-3xl font-bold text-green-600 mb-1">Since 2017</div>
+                  <div className="text-sm text-gray-600">Continuous Sustainable Improvements</div>
                 </div>
               </div>
             </div>

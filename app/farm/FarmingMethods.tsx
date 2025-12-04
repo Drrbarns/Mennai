@@ -15,34 +15,34 @@ export default function FarmingMethods() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mb-16">
           <div>
             <img 
-              src="https://readdy.ai/api/search-image?query=Modern%20drip%20irrigation%20system%20in%20pineapple%20plantation%2C%20rows%20of%20pineapple%20plants%20with%20water%20distribution%20pipes%2C%20sustainable%20farming%20technology%2C%20efficient%20water%20management%2C%20agricultural%20innovation%20in%20tropical%20setting%2C%20clear%20blue%20sky%20background&width=800&height=600&seq=irrigation001&orientation=landscape" 
-              alt="Drip Irrigation System" 
+              src="https://readdy.ai/api/search-image?query=Pineapple%20farm%20in%20Ghana%20with%20farmers%20carefully%20tending%20plants%2C%20manual%20field%20management%2C%20rain-fed%20agriculture%2C%20healthy%20green%20pineapple%20plants%20under%20natural%20sunlight%2C%20sustainable%20yet%20conventional%20farming%20methods&width=800&height=600&seq=farming-methods001&orientation=landscape" 
+              alt="Field Management at Mennai Farms" 
               className="w-full h-80 object-cover object-top rounded-lg shadow-lg"
             />
           </div>
           <div>
-            <h3 className="text-2xl font-bold text-gray-900 mb-4">Precision Irrigation</h3>
+            <h3 className="text-2xl font-bold text-gray-900 mb-4">Careful Field Management</h3>
             <p className="text-gray-600 mb-6 leading-relaxed">
-              Our state-of-the-art drip irrigation system delivers water directly to plant roots, reducing water waste by 40% while ensuring optimal moisture levels for healthy growth.
+              Our fields are primarily rain-fed, supported by careful planning of planting seasons and hands-on field monitoring to keep plants healthy throughout the year.
             </p>
             <ul className="space-y-3">
               <li className="flex items-start space-x-3">
                 <div className="w-5 h-5 flex items-center justify-center mt-1">
                   <i className="ri-check-line text-yellow-500"></i>
                 </div>
-                <span className="text-gray-600">Automated scheduling based on soil moisture sensors</span>
+                <span className="text-gray-600">Thoughtful planning of planting and harvest windows</span>
               </li>
               <li className="flex items-start space-x-3">
                 <div className="w-5 h-5 flex items-center justify-center mt-1">
                   <i className="ri-check-line text-yellow-500"></i>
                 </div>
-                <span className="text-gray-600">Nutrient delivery integrated with irrigation</span>
+                <span className="text-gray-600">Regular field inspections to monitor crop health</span>
               </li>
               <li className="flex items-start space-x-3">
                 <div className="w-5 h-5 flex items-center justify-center mt-1">
                   <i className="ri-check-line text-yellow-500"></i>
                 </div>
-                <span className="text-gray-600">Rainwater harvesting and storage systems</span>
+                <span className="text-gray-600">Practical, water-conscious practices suited to the local climate</span>
               </li>
             </ul>
           </div>
@@ -50,9 +50,9 @@ export default function FarmingMethods() {
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mb-16">
           <div className="order-2 lg:order-1">
-            <h3 className="text-2xl font-bold text-gray-900 mb-4">Organic Soil Management</h3>
+            <h3 className="text-2xl font-bold text-gray-900 mb-4">Soil Health Management</h3>
             <p className="text-gray-600 mb-6 leading-relaxed">
-              We maintain soil health through natural composting, cover cropping, and minimal chemical intervention, ensuring sustainable production for generations to come.
+              We maintain soil health through natural composting, cover cropping, and careful, responsible use of conventional inputs where necessary, ensuring sustainable production for generations to come.
             </p>
             <ul className="space-y-3">
               <li className="flex items-start space-x-3">

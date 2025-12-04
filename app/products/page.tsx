@@ -6,7 +6,7 @@ import PremiumVarieties from './PremiumVarieties';
 
 export const metadata: Metadata = {
   title: "Our Products - Premium Pineapple Varieties",
-  description: "Explore Mennai Farms' premium pineapple varieties. We offer the finest quality pineapples including MD2, Smooth Cayenne, and other premium varieties. Perfect for export, retail, and processing. Contact us for wholesale inquiries.",
+  description: "Explore Mennai Farms' premium pineapple varieties. We offer the finest quality pineapples including MD2 and Smooth Cayenne. Perfect for export, retail, and processing. Contact us for wholesale inquiries.",
   keywords: [
     "premium pineapples",
     "MD2 pineapple",
@@ -19,7 +19,7 @@ export const metadata: Metadata = {
   ],
   openGraph: {
     title: "Premium Pineapple Varieties - Mennai Farms",
-    description: "Discover our premium pineapple varieties including MD2 and Smooth Cayenne. Export quality pineapples from Ghana.",
+    description: "Discover our premium pineapple varieties MD2 and Smooth Cayenne. Export quality pineapples from Ghana.",
     url: "https://mennai-farms.com/products",
   },
   alternates: {

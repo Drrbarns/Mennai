@@ -8,19 +8,19 @@ export default function CompanyHistory() {
 
   const milestones = [
     {
-      year: "2009",
+      year: "2017",
       title: "Farm Establishment",
-      description: "Founded Mennai Farms in Marfokrom with initial 50 acres of pineapple cultivation. Our journey began with a vision to produce world-class pineapples while supporting our local community.",
-      image: "https://readdy.ai/api/search-image?query=Small%20pineapple%20farm%20field%20in%20Ghana%20with%20young%20pineapple%20plants%20being%20planted%20by%20African%20farmers%2C%20humble%20beginnings%20agricultural%20scene%2C%20rural%20Ghana%20countryside%2C%20founders%20working%20in%20the%20field%2C%20early%20stages%20of%20pineapple%20cultivation%2C%20traditional%20farming%20methods%2C%20small%20scale%20pineapple%20plantation&width=800&height=500&seq=journey-2009&orientation=landscape",
+      description: "Founded Mennai Farms in Marfokrom with 50 acres of dedicated pineapple cultivation. Our journey began with a vision to produce world-class pineapples while supporting our local community.",
+      image: "https://readdy.ai/api/search-image?query=Small%20pineapple%20farm%20field%20in%20Ghana%20with%20young%20pineapple%20plants%20being%20planted%20by%20African%20farmers%2C%20humble%20beginnings%20agricultural%20scene%2C%20rural%20Ghana%20countryside%2C%20founders%20working%20in%20the%20field%2C%20early%20stages%20of%20pineapple%20cultivation%2C%20traditional%20farming%20methods%2C%20small%20scale%20pineapple%20plantation&width=800&height=500&seq=journey-2017&orientation=landscape",
       fallbackImage: "https://images.unsplash.com/photo-1625246333195-78d9c38ad449?w=800&h=500&fit=crop",
       icon: "ri-seedling-line"
     },
     {
-      year: "2012", 
-      title: "Organic Certification",
-      description: "Achieved organic certification and expanded to 200 acres with sustainable practices. This milestone marked our commitment to environmental stewardship.",
-      image: "https://readdy.ai/api/search-image?query=Organic%20pineapple%20farming%20in%20Ghana%20showing%20sustainable%20agricultural%20practices%2C%20organic%20certification%20sign%20at%20farm%2C%20eco-friendly%20pineapple%20cultivation%2C%20natural%20farming%20methods%2C%20compost%20piles%2C%20organic%20pineapple%20plants%20growing%20naturally%2C%20sustainable%20agriculture%20in%20Ghana&width=800&height=500&seq=journey-2012&orientation=landscape",
-      fallbackImage: "https://images.unsplash.com/photo-1464226184884-fa280b87c399?w=800&h=500&fit=crop",
+      year: "2019", 
+      title: "Sustainability Milestone",
+      description: "Strengthened our sustainable farming practices with improved soil management and better waste handling, while maintaining our 50-acre pineapple farm.",
+      image: "/pineapple3.jpg",
+      fallbackImage: "/pineapple3.jpg",
       icon: "ri-leaf-line"
     },
     {
@@ -33,17 +33,17 @@ export default function CompanyHistory() {
     },
     {
       year: "2020",
-      title: "Technology Integration",
-      description: "Implemented modern irrigation systems and precision agriculture techniques. Technology became our ally in sustainable farming.",
-      image: "https://readdy.ai/api/search-image?query=Modern%20drip%20irrigation%20systems%20in%20pineapple%20plantation%20Ghana%2C%20automated%20irrigation%20equipment%2C%20precision%20agriculture%20technology%20in%20pineapple%20farming%2C%20solar-powered%20irrigation%20pumps%2C%20smart%20farming%20solutions%2C%20modern%20agricultural%20equipment%20in%20tropical%20farm&width=800&height=500&seq=journey-2020&orientation=landscape",
+      title: "Improved Farm Management",
+      description: "Introduced better field management and quality control practices to consistently deliver export-grade pineapples from our 50-acre farm.",
+      image: "https://readdy.ai/api/search-image?query=Pineapple%20farm%20management%20in%20Ghana%2C%20field%20supervisors%20inspecting%20pineapple%20plants%2C%20quality%20control%20in%20agriculture%2C%20organized%20rows%20of%20pineapples%2C%20professional%20farm%20operations&width=800&height=500&seq=journey-2020&orientation=landscape",
       fallbackImage: "https://images.unsplash.com/photo-1625246333195-78d9c38ad449?w=800&h=500&fit=crop",
       icon: "ri-settings-3-line"
     },
     {
       year: "2024",
-      title: "Expansion & Innovation",
-      description: "Expanded to 500+ acres and launched digital platform for direct buyer connections. Innovation drives our growth forward.",
-      image: "https://readdy.ai/api/search-image?query=Aerial%20view%20of%20expansive%20pineapple%20plantation%20in%20Ghana%20showing%20large%20scale%20farming%20operations%2C%20organized%20rows%20of%20pineapple%20plants%20stretching%20across%20hundreds%20of%20acres%2C%20modern%20agricultural%20infrastructure%2C%20expanded%20farm%20operations%2C%20professional%20pineapple%20plantation%20management&width=800&height=500&seq=journey-2024&orientation=landscape",
+      title: "Market Growth & Partnerships",
+      description: "Strengthened relationships with local and international buyers while maintaining strict quality standards across all our pineapples.",
+      image: "https://readdy.ai/api/search-image?query=Pineapple%20export%20partnership%20meeting%20in%20Ghana%2C%20farm%20representatives%20discussing%20contracts%20with%20buyers%2C%20premium%20pineapples%20on%20display%2C%20agricultural%20business%20partnership%2C%20professional%20meeting%20room&width=800&height=500&seq=journey-2024&orientation=landscape",
       fallbackImage: "https://images.unsplash.com/photo-1574943320219-553eb213f72d?w=800&h=500&fit=crop",
       icon: "ri-rocket-line"
     },

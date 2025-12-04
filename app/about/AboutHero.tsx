@@ -12,8 +12,8 @@ export default function AboutHero() {
             About <span className="text-yellow-400">Mennai Farms</span>
           </h1>
           <p className="text-xl md:text-2xl text-gray-200 leading-relaxed">
-            Pioneering sustainable pineapple farming in Ghana's Eastern Region for over 15 years, 
-            committed to quality, community, and environmental stewardship.
+            Pioneering sustainable pineapple farming in Ghana's Eastern Region since 2017,
+            with a firm commitment to quality, community, and environmental stewardship.
           </p>
         </div>
       </div>
