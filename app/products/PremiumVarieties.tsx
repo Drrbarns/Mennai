@@ -333,46 +333,6 @@ export default function PremiumVarieties() {
               </button>
             </div>
           </div>
-
-          <div className="bg-white rounded-lg shadow-lg overflow-hidden">
-            <img
-              src="/products1.jpg"
-              alt="Fresh Pineapple Chunks"
-              width={400}
-              height={300}
-              className="w-full h-64 object-cover object-top"
-              loading="lazy"
-              decoding="async"
-            />
-            <div className="p-6">
-              <h3 className="text-2xl font-bold text-gray-900 mb-3">Fresh Pineapple Chunks</h3>
-              <p className="text-gray-600 mb-4 leading-relaxed">
-                Conveniently pre-cut fresh pineapple chunks, ready to eat. Perfect for restaurants, cafes, and food service businesses looking for quality convenience.
-              </p>
-              
-              <div className="space-y-2 mb-6">
-                <div className="flex items-center justify-between">
-                  <span className="text-gray-700 font-medium">Preparation:</span>
-                  <span className="text-green-600 font-semibold">Fresh Cut</span>
-                </div>
-                <div className="flex items-center justify-between">
-                  <span className="text-gray-700 font-medium">Package Size:</span>
-                  <span className="text-gray-600">1kg - 5kg</span>
-                </div>
-                <div className="flex items-center justify-between">
-                  <span className="text-gray-700 font-medium">Shelf Life:</span>
-                  <span className="text-gray-600">3-5 days</span>
-                </div>
-              </div>
-              
-              <button
-                onClick={() => openQuotePopup('Fresh Pineapple Chunks')}
-                className="w-full inline-flex items-center justify-center bg-yellow-500 text-white py-3 rounded-full font-semibold hover:bg-yellow-600 transition-colors duration-200 whitespace-nowrap cursor-pointer"
-              >
-                Request Quote
-              </button>
-            </div>
-          </div>
         </div>
       </div>
 
