@@ -44,7 +44,7 @@ export default function ContactSection() {
                       </div>
                       <div>
                         <h4 className="font-semibold text-gray-900 mb-1 group-hover:text-yellow-600 transition-colors duration-300">Phone</h4>
-                        <p className="text-gray-600">+233 24 123 4567</p>
+                        <p className="text-gray-600">+233249240156</p>
                       </div>
                     </div>
                   </ScrollAnimation>

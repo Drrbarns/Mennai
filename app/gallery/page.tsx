@@ -3,6 +3,7 @@ import Header from '../../components/Header';
 import Footer from '../../components/Footer';
 import GalleryHero from './GalleryHero';
 import FarmPhotos from './FarmPhotos';
+import StructuredData from '../../components/StructuredData';
 
 export const metadata: Metadata = {
   title: "Gallery - Farm Photos & Visual Tour",
@@ -14,12 +15,45 @@ export const metadata: Metadata = {
     "farm tour photos",
     "agricultural photography Ghana",
     "pineapple harvest photos",
-    "sustainable farming images"
+    "sustainable farming images",
+    "Mennai Farms gallery",
+    "pineapple farm images",
+    "Ghana agriculture photos",
+    "farm visual tour"
   ],
+  authors: [{ name: "Mennai Farms" }],
   openGraph: {
     title: "Farm Gallery - Mennai Farms Visual Tour",
     description: "Explore our pineapple farm through stunning photos. See our plantation, operations, and beautiful landscapes in Ghana.",
     url: "https://mennai-farms.com/gallery",
+    siteName: "Mennai Farms",
+    images: [
+      {
+        url: "https://mennai-farms.com/logo.png",
+        width: 1200,
+        height: 630,
+        alt: "Mennai Farms Gallery",
+      },
+    ],
+    locale: "en_US",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Farm Gallery - Mennai Farms Visual Tour",
+    description: "Explore our pineapple farm through stunning photos.",
+    images: ["https://mennai-farms.com/logo.png"],
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-video-preview": -1,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+    },
   },
   alternates: {
     canonical: "https://mennai-farms.com/gallery",
@@ -29,6 +63,18 @@ export const metadata: Metadata = {
 export default function GalleryPage() {
   return (
     <main>
+      <StructuredData
+        data={{
+          "@context": "https://schema.org",
+          "@type": "ImageGallery",
+          name: "Mennai Farms Photo Gallery",
+          description: "Visual tour of Mennai Farms pineapple plantation and operations",
+          about: {
+            "@type": "Farm",
+            name: "Mennai Farms",
+          },
+        }}
+      />
       <Header />
       <GalleryHero />
       <FarmPhotos />

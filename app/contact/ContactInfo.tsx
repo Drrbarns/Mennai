@@ -15,10 +15,8 @@ export default function ContactInfo() {
       icon: 'ri-phone-line',
       title: 'Phone Numbers',
       details: [
-        'Main Office: +233 24 123 4567',
-        'Farm Manager: +233 20 987 6543',
-        'Export Sales: +233 26 555 0123',
-        'WhatsApp: +233 24 123 4567'
+        'Phone: +233249240156',
+        'WhatsApp: +233249240156'
       ]
     },
     {

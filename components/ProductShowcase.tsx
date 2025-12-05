@@ -73,16 +73,16 @@ export default function ProductShowcase() {
             <div className="group bg-white rounded-xl shadow-sm overflow-hidden hover-lift transition-all duration-300 border border-gray-100 hover:border-green-200">
               <div className="relative overflow-hidden">
                 <img
-                  src="https://readdy.ai/api/search-image?query=Organic%20pineapples%20with%20certification%20label%2C%20natural%20farming%20symbols%2C%20eco-friendly%20packaging%20design%2C%20sustainable%20agriculture%20branding%2C%20green%20and%20natural%20color%20scheme%2C%20premium%20organic%20fruit%20presentation%20for%20health-conscious%20consumers&width=400&height=300&seq=product003&orientation=landscape"
-                  alt="Organic Pineapples"
+                  src="https://readdy.ai/api/search-image?query=Premium%20pineapples%20with%20sustainable%20farming%20symbols%2C%20eco-friendly%20packaging%20design%2C%20sustainable%20agriculture%20branding%2C%20green%20and%20natural%20color%20scheme%2C%20premium%20quality%20fruit%20presentation%20for%20health-conscious%20consumers&width=400&height=300&seq=product003&orientation=landscape"
+                  alt="Premium Pineapples"
                   className="w-full h-56 object-cover object-top transition-transform duration-500 group-hover:scale-110"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
               </div>
               <div className="p-6">
-                <h3 className="text-xl font-semibold text-gray-900 mb-3 group-hover:text-green-600 transition-colors duration-300">Organic Pineapples</h3>
+                <h3 className="text-xl font-semibold text-gray-900 mb-3 group-hover:text-green-600 transition-colors duration-300">Premium Pineapples</h3>
                 <p className="text-gray-600 mb-4 leading-relaxed">
-                  Certified organic pineapples grown without synthetic pesticides, perfect for health-conscious consumers and premium markets.
+                  High-quality pineapples grown using conventional methods combined with sustainable, organic-inspired practices, perfect for health-conscious consumers and premium markets.
                 </p>
                 <Link 
                   href="/products" 

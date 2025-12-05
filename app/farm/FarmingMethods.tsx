@@ -15,7 +15,7 @@ export default function FarmingMethods() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mb-16">
           <div>
             <img 
-              src="https://readdy.ai/api/search-image?query=Pineapple%20farm%20in%20Ghana%20with%20farmers%20carefully%20tending%20plants%2C%20manual%20field%20management%2C%20rain-fed%20agriculture%2C%20healthy%20green%20pineapple%20plants%20under%20natural%20sunlight%2C%20sustainable%20yet%20conventional%20farming%20methods&width=800&height=600&seq=farming-methods001&orientation=landscape" 
+              src="/pineapples2.jpg" 
               alt="Field Management at Mennai Farms" 
               className="w-full h-80 object-cover object-top rounded-lg shadow-lg"
             />

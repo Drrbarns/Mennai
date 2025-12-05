@@ -113,7 +113,7 @@ export default function Footer() {
                 <div className="w-6 h-6 flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
                   <i className="ri-phone-line text-green-400"></i>
                 </div>
-                <span className="text-gray-300 group-hover:text-white transition-colors duration-300">+233 XX XXX XXXX</span>
+                <span className="text-gray-300 group-hover:text-white transition-colors duration-300">+233249240156</span>
               </div>
               <div className="flex items-center space-x-3 group">
                 <div className="w-6 h-6 flex items-center justify-center group-hover:scale-110 transition-transform duration-300">

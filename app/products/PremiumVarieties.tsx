@@ -162,6 +162,48 @@ export default function PremiumVarieties() {
 
           <div className="bg-white rounded-lg shadow-lg overflow-hidden">
             <img
+              src="/image5.jpg"
+              alt="Sugarloaf Pineapple"
+              className="w-full h-64 object-cover object-center"
+            />
+            <div className="p-6">
+              <h3 className="text-2xl font-bold text-gray-900 mb-3">Sugarloaf</h3>
+              <p className="text-gray-600 mb-4 leading-relaxed">
+                A premium variety known for its exceptional sweetness, conical shape, and low acidity. Perfect for fresh consumption with its tender, juicy flesh and aromatic flavor.
+              </p>
+              
+              <div className="space-y-2 mb-6">
+                <div className="flex items-center justify-between">
+                  <span className="text-gray-700 font-medium">Sweetness Level:</span>
+                  <div className="flex space-x-1">
+                    <div className="w-3 h-3 bg-yellow-500 rounded-full"></div>
+                    <div className="w-3 h-3 bg-yellow-500 rounded-full"></div>
+                    <div className="w-3 h-3 bg-yellow-500 rounded-full"></div>
+                    <div className="w-3 h-3 bg-yellow-500 rounded-full"></div>
+                    <div className="w-3 h-3 bg-yellow-500 rounded-full"></div>
+                  </div>
+                </div>
+                <div className="flex items-center justify-between">
+                  <span className="text-gray-700 font-medium">Size Range:</span>
+                  <span className="text-gray-600">1.5 - 3.5 kg</span>
+                </div>
+                <div className="flex items-center justify-between">
+                  <span className="text-gray-700 font-medium">Shelf Life:</span>
+                  <span className="text-gray-600">12-16 days</span>
+                </div>
+              </div>
+              
+              <button
+                onClick={() => openQuotePopup('Sugarloaf')}
+                className="w-full inline-flex items-center justify-center bg-yellow-500 text-white py-3 rounded-full font-semibold hover:bg-yellow-600 transition-colors duration-200 whitespace-nowrap cursor-pointer"
+              >
+                Request Quote
+              </button>
+            </div>
+          </div>
+
+          <div className="bg-white rounded-lg shadow-lg overflow-hidden">
+            <img
               src="https://readdy.ai/api/search-image?query=Fresh%20pineapple%20juice%20in%20clear%20glass%20bottle%2C%20golden%20yellow%20natural%20juice%20with%20tropical%20fruit%20pieces%2C%20premium%20beverage%20packaging%2C%20healthy%20drink%20product%2C%20commercial%20food%20photography%2C%20clean%20white%20background%20for%20product%20showcase&width=400&height=300&seq=juice001&orientation=landscape"
               alt="Fresh Pineapple Juice"
               className="w-full h-64 object-cover object-top"
@@ -383,7 +425,7 @@ export default function PremiumVarieties() {
                     onChange={handleInputChange}
                     required
                     className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-yellow-500 focus:border-transparent"
-                    placeholder="+233 XX XXX XXXX"
+                    placeholder="+233249240156"
                   />
                 </div>
 
