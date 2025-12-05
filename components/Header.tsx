@@ -34,7 +34,12 @@ export default function Header() {
             <img
               src="/logo.png"
               alt="Mennai Farms Logo"
+              width={200}
+              height={96}
               className="h-16 md:h-20 lg:h-24 w-auto object-contain"
+              loading="eager"
+              fetchPriority="high"
+              decoding="async"
             />
           </Link>
 

@@ -80,7 +80,11 @@ export default function PremiumVarieties() {
             <img
               src="https://readdy.ai/api/search-image?query=Premium%20MD2%20Golden%20Sweet%20pineapple%20variety%2C%20perfectly%20ripe%20golden%20yellow%20fruit%20with%20crown%2C%20exceptional%20quality%20tropical%20fruit%2C%20sweet%20and%20juicy%20pineapple%2C%20commercial%20grade%20produce%2C%20clean%20white%20background%20for%20product%20showcase&width=400&height=300&seq=md2001&orientation=landscape"
               alt="MD2 Golden Sweet Pineapple"
+              width={400}
+              height={300}
               className="w-full h-64 object-cover object-top"
+              loading="lazy"
+              decoding="async"
             />
             <div className="p-6">
               <h3 className="text-2xl font-bold text-gray-900 mb-3">MD2 Golden Sweet</h3>
@@ -122,7 +126,11 @@ export default function PremiumVarieties() {
             <img
               src="https://readdy.ai/api/search-image?query=Smooth%20Cayenne%20pineapple%20variety%2C%20traditional%20large%20pineapple%20with%20distinctive%20smooth%20skin%2C%20classic%20tropical%20fruit%20variety%2C%20robust%20and%20flavorful%20pineapple%2C%20commercial%20agricultural%20produce%2C%20clean%20white%20background%20for%20product%20display&width=400&height=300&seq=cayenne001&orientation=landscape"
               alt="Smooth Cayenne Pineapple"
+              width={400}
+              height={300}
               className="w-full h-64 object-cover object-top"
+              loading="lazy"
+              decoding="async"
             />
             <div className="p-6">
               <h3 className="text-2xl font-bold text-gray-900 mb-3">Smooth Cayenne</h3>
@@ -164,7 +172,11 @@ export default function PremiumVarieties() {
             <img
               src="/image5.jpg"
               alt="Sugarloaf Pineapple"
+              width={400}
+              height={300}
               className="w-full h-64 object-cover object-center"
+              loading="lazy"
+              decoding="async"
             />
             <div className="p-6">
               <h3 className="text-2xl font-bold text-gray-900 mb-3">Sugarloaf</h3>
@@ -206,7 +218,11 @@ export default function PremiumVarieties() {
             <img
               src="https://readdy.ai/api/search-image?query=Fresh%20pineapple%20juice%20in%20clear%20glass%20bottle%2C%20golden%20yellow%20natural%20juice%20with%20tropical%20fruit%20pieces%2C%20premium%20beverage%20packaging%2C%20healthy%20drink%20product%2C%20commercial%20food%20photography%2C%20clean%20white%20background%20for%20product%20showcase&width=400&height=300&seq=juice001&orientation=landscape"
               alt="Fresh Pineapple Juice"
+              width={400}
+              height={300}
               className="w-full h-64 object-cover object-top"
+              loading="lazy"
+              decoding="async"
             />
             <div className="p-6">
               <h3 className="text-2xl font-bold text-gray-900 mb-3">Fresh Pineapple Juice</h3>
@@ -242,7 +258,11 @@ export default function PremiumVarieties() {
             <img
               src="https://readdy.ai/api/search-image?query=Dried%20pineapple%20rings%20and%20chunks%20in%20premium%20packaging%2C%20golden%20dehydrated%20tropical%20fruit%20snacks%2C%20healthy%20processed%20pineapple%20products%2C%20commercial%20food%20packaging%20design%2C%20clean%20white%20background%20for%20product%20display&width=400&height=300&seq=dried001&orientation=landscape"
               alt="Dried Pineapple Products"
+              width={400}
+              height={300}
               className="w-full h-64 object-cover object-top"
+              loading="lazy"
+              decoding="async"
             />
             <div className="p-6">
               <h3 className="text-2xl font-bold text-gray-900 mb-3">Dried Pineapple</h3>
@@ -278,7 +298,11 @@ export default function PremiumVarieties() {
             <img
               src="https://readdy.ai/api/search-image?query=Canned%20pineapple%20chunks%20in%20natural%20juice%2C%20premium%20tin%20can%20packaging%2C%20processed%20tropical%20fruit%20in%20syrup%2C%20commercial%20food%20product%2C%20professional%20packaging%20design%2C%20clean%20white%20background%20for%20retail%20display&width=400&height=300&seq=canned001&orientation=landscape"
               alt="Canned Pineapple"
+              width={400}
+              height={300}
               className="w-full h-64 object-cover object-top"
+              loading="lazy"
+              decoding="async"
             />
             <div className="p-6">
               <h3 className="text-2xl font-bold text-gray-900 mb-3">Canned Pineapple</h3>
@@ -314,7 +338,11 @@ export default function PremiumVarieties() {
             <img
               src="/products1.jpg"
               alt="Fresh Pineapple Chunks"
+              width={400}
+              height={300}
               className="w-full h-64 object-cover object-top"
+              loading="lazy"
+              decoding="async"
             />
             <div className="p-6">
               <h3 className="text-2xl font-bold text-gray-900 mb-3">Fresh Pineapple Chunks</h3>

@@ -10,7 +10,11 @@ export default function Footer() {
               <img
                 src="/logo.png"
                 alt="Mennai Farms Logo"
+                width={200}
+                height={96}
                 className="h-20 md:h-24 w-auto object-contain"
+                loading="lazy"
+                decoding="async"
               />
             </Link>
             <p className="text-gray-300 mb-6 leading-relaxed">

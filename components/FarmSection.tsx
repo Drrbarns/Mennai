@@ -94,7 +94,11 @@ export default function FarmSection() {
               <img
                 src="https://readdy.ai/api/search-image?query=Aerial%20view%20of%20organized%20pineapple%20plantation%20in%20Ghana%2C%20neat%20rows%20of%20pineapple%20plants%20creating%20geometric%20patterns%20across%20rolling%20hills%2C%20tropical%20landscape%20with%20lush%20green%20vegetation%2C%20modern%20agricultural%20planning%20visible%20from%20above%2C%20natural%20lighting%20showcasing%20the%20scale%20and%20organization%20of%20commercial%20farming&width=800&height=600&seq=farm001&orientation=landscape"
                 alt="Aerial view of Mennai Farms"
+                width={800}
+                height={600}
                 className="w-full h-96 lg:h-[500px] object-cover object-top transition-transform duration-700 group-hover:scale-105 parallax-element"
+                loading="lazy"
+                decoding="async"
                 style={{
                   transform: `translateY(${scrollY}px)`,
                 }}

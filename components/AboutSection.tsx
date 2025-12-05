@@ -37,7 +37,11 @@ export default function AboutSection() {
               <img
                 src="https://readdy.ai/api/search-image?query=African%20farmers%20working%20in%20pineapple%20plantation%2C%20traditional%20farming%20methods%20combined%20with%20modern%20techniques%2C%20workers%20harvesting%20ripe%20golden%20pineapples%20under%20clear%20blue%20sky%2C%20authentic%20agricultural%20scene%20in%20Ghana%2C%20documentary%20photography%20style%20showing%20dedication%20and%20craftsmanship%20in%20tropical%20farming%20environment&width=800&height=600&seq=about001&orientation=landscape"
                 alt="Farmers at Mennai Farms"
+                width={800}
+                height={600}
                 className="w-full h-96 lg:h-[500px] object-cover object-top transition-transform duration-700 group-hover:scale-105 parallax-element"
+                loading="lazy"
+                decoding="async"
                 style={{
                   transform: `translateY(${scrollY}px)`,
                 }}

@@ -17,7 +17,11 @@ export default function FarmingMethods() {
             <img 
               src="/pineapples2.jpg" 
               alt="Field Management at Mennai Farms" 
+              width={800}
+              height={600}
               className="w-full h-80 object-cover object-top rounded-lg shadow-lg"
+              loading="lazy"
+              decoding="async"
             />
           </div>
           <div>

@@ -14,7 +14,12 @@ export default function HeroSection() {
         <img
           src={heroImage}
           alt="Premium Pineapples"
+          width={1920}
+          height={1080}
           className="w-full h-full object-cover animate-slow-zoom"
+          loading="eager"
+          fetchPriority="high"
+          decoding="async"
         />
         {/* Gradient overlay */}
         <div className="absolute inset-0 bg-gradient-to-r from-black/50 via-black/30 to-black/30" />
