@@ -35,8 +35,8 @@ export default function CompanyHistory() {
       year: "2020",
       title: "Improved Farm Management",
       description: "Introduced better field management and quality control practices to consistently deliver export-grade pineapples from our 50-acre farm.",
-      image: "https://readdy.ai/api/search-image?query=Pineapple%20farm%20management%20in%20Ghana%2C%20field%20supervisors%20inspecting%20pineapple%20plants%2C%20quality%20control%20in%20agriculture%2C%20organized%20rows%20of%20pineapples%2C%20professional%20farm%20operations&width=800&height=500&seq=journey-2020&orientation=landscape",
-      fallbackImage: "https://images.unsplash.com/photo-1625246333195-78d9c38ad449?w=800&h=500&fit=crop",
+      image: "/image8.jpg",
+      fallbackImage: "/image8.jpg",
       icon: "ri-settings-3-line"
     },
     {
@@ -72,15 +72,15 @@ export default function CompanyHistory() {
     <section className="py-20 md:py-24 bg-white">
       <div className="container mx-auto px-4">
         <ScrollAnimation animation="fade-in-up">
-          <div className="text-center mb-16">
-            <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-              Our <span className="text-green-600">Journey</span>
-            </h2>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              From humble beginnings to becoming a leading pineapple producer in Ghana, 
-              our story is one of dedication, innovation, and sustainable growth.
-            </p>
-          </div>
+        <div className="text-center mb-16">
+          <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
+            Our <span className="text-green-600">Journey</span>
+          </h2>
+          <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+            From humble beginnings to becoming a leading pineapple producer in Ghana, 
+            our story is one of dedication, innovation, and sustainable growth.
+          </p>
+        </div>
         </ScrollAnimation>
 
         <div className="max-w-7xl mx-auto">
@@ -107,9 +107,9 @@ export default function CompanyHistory() {
                       <div className="w-12 h-12 bg-white/90 backdrop-blur-sm rounded-xl flex items-center justify-center shadow-md">
                         <i className={`${milestone.icon} text-green-600 text-2xl`}></i>
                       </div>
+                      </div>
                     </div>
-                  </div>
-                  
+                    
                   {/* Content */}
                   <div className="p-8">
                     <h3 className="text-2xl font-bold text-gray-900 mb-4 group-hover:text-green-600 transition-colors duration-300">
@@ -126,10 +126,10 @@ export default function CompanyHistory() {
 
           {/* Journey Continues */}
           <ScrollAnimation animation="fade-in-up" delay={600}>
-            <div className="text-center mt-16">
+          <div className="text-center mt-16">
               <div className="inline-flex items-center space-x-4 bg-gray-50 rounded-full px-8 py-4 border border-gray-200">
                 <div className="w-3 h-3 bg-green-600 rounded-full animate-pulse"></div>
-                <span className="text-gray-700 font-semibold text-lg">The journey continues...</span>
+              <span className="text-gray-700 font-semibold text-lg">The journey continues...</span>
                 <div className="w-3 h-3 bg-yellow-500 rounded-full animate-pulse" style={{ animationDelay: '0.5s' }}></div>
               </div>
             </div>
