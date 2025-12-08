@@ -36,15 +36,15 @@ export default function TeamSection() {
     <section className="py-20 md:py-24 bg-gradient-to-b from-gray-50 to-white">
       <div className="container mx-auto px-4">
         <ScrollAnimation animation="fade-in-up">
-          <div className="text-center mb-16">
-            <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-              Meet Our <span className="text-green-600">Expert Team</span>
-            </h2>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Our dedicated professionals bring decades of combined experience in agriculture, 
-              quality control, and sustainable farming practices.
-            </p>
-          </div>
+        <div className="text-center mb-16">
+          <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
+            Meet Our <span className="text-green-600">Expert Team</span>
+          </h2>
+          <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+            Our dedicated professionals bring decades of combined experience in agriculture, 
+            quality control, and sustainable farming practices.
+          </p>
+        </div>
         </ScrollAnimation>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-16">
@@ -52,11 +52,11 @@ export default function TeamSection() {
             <ScrollAnimation key={index} animation="scale-in" delay={index * 100}>
               <div className="group bg-white rounded-2xl overflow-hidden shadow-lg hover-lift transition-all duration-300 border border-gray-100 relative">
                 <div className="relative overflow-hidden">
-                  <img
-                    src={member.image}
-                    alt={member.name}
+              <img
+                src={member.image}
+                alt={member.name}
                     className="w-full h-72 object-cover object-top transition-transform duration-500 group-hover:scale-110"
-                  />
+              />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                   <div className="absolute bottom-4 left-4 right-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                     <div className="bg-white/90 backdrop-blur-sm rounded-lg p-3">
@@ -67,12 +67,12 @@ export default function TeamSection() {
                     </div>
                   </div>
                 </div>
-                <div className="p-6">
+              <div className="p-6">
                   <h3 className="text-xl font-bold text-gray-900 mb-2 group-hover:text-green-600 transition-colors duration-300">
                     {member.name}
                   </h3>
                   <p className="text-green-600 font-medium mb-3 text-sm">{member.position}</p>
-                  <p className="text-gray-600 text-sm leading-relaxed">{member.description}</p>
+                <p className="text-gray-600 text-sm leading-relaxed">{member.description}</p>
                   
                   <div className="mt-4 pt-4 border-t border-gray-100 flex space-x-3">
                     <a href="#" className="w-8 h-8 flex items-center justify-center bg-gray-100 rounded-full hover:bg-green-600 hover:text-white transition-all duration-300 group/social">
@@ -98,13 +98,13 @@ export default function TeamSection() {
               <p className="text-lg text-gray-600 mb-8 max-w-2xl mx-auto">
                 We're always looking for passionate individuals who share our commitment to sustainable agriculture 
                 and excellence in farming.
-              </p>
+            </p>
               <button className="group bg-green-600 hover:bg-green-700 text-white px-8 py-4 rounded-full font-semibold transition-all duration-300 cursor-pointer whitespace-nowrap shadow-lg hover:shadow-xl hover:scale-105 transform inline-flex items-center">
                 <span>View Open Positions</span>
                 <i className="ri-arrow-right-line ml-2 transition-transform duration-300 group-hover:translate-x-1"></i>
-              </button>
-            </div>
+            </button>
           </div>
+        </div>
         </ScrollAnimation>
       </div>
     </section>

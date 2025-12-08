@@ -17,7 +17,7 @@ export default function FarmScale() {
           </div>
           <div className="bg-white p-8 rounded-lg shadow-sm text-center">
             <div className="text-4xl font-bold text-yellow-500 mb-2">25,000</div>
-            <div className="text-gray-600 font-medium mb-2">Plants per Hectare</div>
+            <div className="text-gray-600 font-medium mb-2">Plants per Acre</div>
             <p className="text-sm text-gray-500">Optimal planting density for quality</p>
           </div>
           <div className="bg-white p-8 rounded-lg shadow-sm text-center">

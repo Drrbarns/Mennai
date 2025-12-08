@@ -52,22 +52,22 @@ export default function AboutSection() {
           <ScrollAnimation animation="fade-in-right" className="order-1 lg:order-2">
             <div>
               <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-6 leading-tight">
-                Rooted in Tradition, <span className="text-yellow-500">Growing for Tomorrow</span>
-              </h2>
-              <p className="text-lg text-gray-600 mb-6 leading-relaxed">
-                Located in the fertile lands of Marfokrom, Ayensuano District, Mennai Farms has been dedicated to cultivating the finest pineapples in Ghana's Eastern Region. Our journey began with a simple vision: to produce world-class pineapples while supporting our local community and environment.
-              </p>
-              <p className="text-gray-600 mb-8 leading-relaxed">
-                Through innovative farming techniques and unwavering commitment to sustainability, we've built a reputation for excellence that extends from local markets to international shores. Every pineapple tells the story of our passion for agriculture and our dedication to quality.
-              </p>
+              Rooted in Tradition, <span className="text-yellow-500">Growing for Tomorrow</span>
+            </h2>
+            <p className="text-lg text-gray-600 mb-6 leading-relaxed">
+              Located in the fertile lands of Marfokrom, Ayensuano District, Mennai Farms has been dedicated to cultivating the finest pineapples in Ghana's Eastern Region. Our journey began with a simple vision: to produce world-class pineapples while supporting our local community and environment.
+            </p>
+            <p className="text-gray-600 mb-8 leading-relaxed">
+              Through innovative farming techniques and unwavering commitment to sustainability, we've built a reputation for excellence that extends from local markets to international shores. Every pineapple tells the story of our passion for agriculture and our dedication to quality.
+            </p>
               <Link 
                 href="/about" 
                 className="group inline-flex items-center bg-yellow-500 text-white px-8 py-4 rounded-full font-semibold hover:bg-yellow-600 transition-all duration-300 cursor-pointer whitespace-nowrap shadow-lg hover:shadow-xl hover:scale-105 transform"
               >
-                Read Our Full Story
+              Read Our Full Story
                 <i className="ri-arrow-right-line ml-2 transition-transform duration-300 group-hover:translate-x-1"></i>
-              </Link>
-            </div>
+            </Link>
+          </div>
           </ScrollAnimation>
         </div>
       </div>

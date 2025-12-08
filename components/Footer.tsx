@@ -51,7 +51,7 @@ export default function Footer() {
               <li>
                 <Link href="/" className="text-gray-400 hover:text-green-400 transition-all duration-300 cursor-pointer inline-block hover:translate-x-1 group">
                   <span className="inline-flex items-center">
-                    Home
+                  Home
                     <i className="ri-arrow-right-line ml-1 opacity-0 group-hover:opacity-100 transition-all duration-300"></i>
                   </span>
                 </Link>
@@ -59,7 +59,7 @@ export default function Footer() {
               <li>
                 <Link href="/about" className="text-gray-400 hover:text-green-400 transition-all duration-300 cursor-pointer inline-block hover:translate-x-1 group">
                   <span className="inline-flex items-center">
-                    About Us
+                  About Us
                     <i className="ri-arrow-right-line ml-1 opacity-0 group-hover:opacity-100 transition-all duration-300"></i>
                   </span>
                 </Link>
@@ -67,7 +67,7 @@ export default function Footer() {
               <li>
                 <Link href="/farm" className="text-gray-400 hover:text-green-400 transition-all duration-300 cursor-pointer inline-block hover:translate-x-1 group">
                   <span className="inline-flex items-center">
-                    Our Farm
+                  Our Farm
                     <i className="ri-arrow-right-line ml-1 opacity-0 group-hover:opacity-100 transition-all duration-300"></i>
                   </span>
                 </Link>
@@ -75,7 +75,7 @@ export default function Footer() {
               <li>
                 <Link href="/products" className="text-gray-400 hover:text-green-400 transition-all duration-300 cursor-pointer inline-block hover:translate-x-1 group">
                   <span className="inline-flex items-center">
-                    Products
+                  Products
                     <i className="ri-arrow-right-line ml-1 opacity-0 group-hover:opacity-100 transition-all duration-300"></i>
                   </span>
                 </Link>
@@ -83,7 +83,7 @@ export default function Footer() {
               <li>
                 <Link href="/contact" className="text-gray-400 hover:text-green-400 transition-all duration-300 cursor-pointer inline-block hover:translate-x-1 group">
                   <span className="inline-flex items-center">
-                    Contact
+                  Contact
                     <i className="ri-arrow-right-line ml-1 opacity-0 group-hover:opacity-100 transition-all duration-300"></i>
                   </span>
                 </Link>

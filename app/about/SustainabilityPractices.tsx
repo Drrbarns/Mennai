@@ -56,20 +56,20 @@ export default function SustainabilityPractices() {
     <section className="py-20 md:py-24 bg-white">
       <div className="container mx-auto px-4">
         <ScrollAnimation animation="fade-in-up">
-          <div className="text-center mb-16">
+        <div className="text-center mb-16">
             <div className="inline-block mb-4">
               <span className="bg-green-100 text-green-600 px-4 py-2 rounded-full text-sm font-semibold">
                 Environmental Stewardship
               </span>
             </div>
-            <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-              <span className="text-green-600">Sustainable</span> Farming Practices
-            </h2>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Our commitment to environmental stewardship drives every decision we make, 
-              ensuring a healthy planet for future generations.
-            </p>
-          </div>
+          <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
+            <span className="text-green-600">Sustainable</span> Farming Practices
+          </h2>
+          <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+            Our commitment to environmental stewardship drives every decision we make, 
+            ensuring a healthy planet for future generations.
+          </p>
+        </div>
         </ScrollAnimation>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8 mb-16">
@@ -98,7 +98,7 @@ export default function SustainabilityPractices() {
         <ScrollAnimation animation="fade-in-up">
           <div className="bg-gradient-to-br from-green-50 via-white to-yellow-50 p-10 md:p-12 rounded-3xl shadow-xl border border-green-100">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-              <div>
+            <div>
                 <div className="inline-block mb-6">
                   <span className="bg-green-600 text-white px-4 py-2 rounded-full text-sm font-semibold">
                     Our Impact
@@ -117,11 +117,11 @@ export default function SustainabilityPractices() {
                         <span className="text-lg font-medium text-gray-700 group-hover:text-green-600 transition-colors duration-300">
                           {impact.label}
                         </span>
-                      </div>
+                  </div>
                     </ScrollAnimation>
                   ))}
                 </div>
-              </div>
+                  </div>
               <div className="relative">
                 <div className="rounded-2xl overflow-hidden shadow-2xl group">
                   <img

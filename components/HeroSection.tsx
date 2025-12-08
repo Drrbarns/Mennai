@@ -31,41 +31,41 @@ export default function HeroSection() {
       {/* Content */}
       <div className="relative z-10 w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <ScrollAnimation animation="fade-in-up" delay={200}>
-          <div className="max-w-2xl">
+        <div className="max-w-2xl">
             <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-white mb-6 leading-tight">
               Premium Pineapples
               <br />
               <span className="text-yellow-400 inline-block mt-2">
                 From Ghana&apos;s Heart
               </span>
-            </h1>
+          </h1>
             <ScrollAnimation animation="fade-in-up" delay={400}>
               <p className="text-lg md:text-xl text-gray-100 mb-8 leading-relaxed">
                 Cultivating exceptional pineapples through sustainable farming
                 practices in Marfokrom, Ayensuano District. Quality that
                 reaches from our fields to your table.
-              </p>
+          </p>
             </ScrollAnimation>
             <ScrollAnimation animation="fade-in-up" delay={600}>
-              <div className="flex flex-col sm:flex-row gap-4">
+          <div className="flex flex-col sm:flex-row gap-4">
                 <Link
                   href="/products"
                   className="group bg-yellow-500 text-white px-8 py-4 rounded-full font-semibold hover:bg-yellow-600 transition-all duration-300 cursor-pointer whitespace-nowrap text-center shadow-lg hover:shadow-xl hover:scale-105 transform"
                 >
                   <span className="inline-flex items-center">
-                    Explore Our Products
+              Explore Our Products
                     <i className="ri-arrow-right-line ml-2 transition-transform duration-300 group-hover:translate-x-1"></i>
                   </span>
-                </Link>
+            </Link>
                 <Link
                   href="/about"
                   className="group border-2 border-white text-white px-8 py-4 rounded-full font-semibold hover:bg-white hover:text-gray-900 transition-all duration-300 cursor-pointer whitespace-nowrap text-center backdrop-blur-sm hover:scale-105 transform"
                 >
                   <span className="inline-flex items-center">
-                    Learn About Our Farm
+              Learn About Our Farm
                     <i className="ri-arrow-right-line ml-2 transition-transform duration-300 group-hover:translate-x-1"></i>
                   </span>
-                </Link>
+            </Link>
               </div>
             </ScrollAnimation>
           </div>

@@ -24,7 +24,7 @@ export default function CompanyHistory() {
       icon: "ri-leaf-line"
     },
     {
-      year: "2016",
+      year: "2017",
       title: "Export Market Entry", 
       description: "Began exporting premium pineapples to international markets in Europe and North America. Our quality standards opened doors to global opportunities.",
       image: "https://readdy.ai/api/search-image?query=Fresh%20pineapples%20being%20packed%20into%20export%20containers%20at%20Ghana%20port%2C%20international%20shipping%20containers%20with%20pineapples%2C%20workers%20packing%20premium%20pineapples%20for%20export%2C%20quality%20control%20inspection%2C%20export%20logistics%20pineapple%20farm%20Ghana%2C%20international%20trade%20operations&width=800&height=500&seq=journey-2016&orientation=landscape",
