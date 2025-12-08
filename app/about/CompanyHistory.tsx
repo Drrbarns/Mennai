@@ -11,8 +11,8 @@ export default function CompanyHistory() {
       year: "2017",
       title: "Farm Establishment",
       description: "Founded Mennai Farms in Marfokrom with 50 acres of dedicated pineapple cultivation. Our journey began with a vision to produce world-class pineapples while supporting our local community.",
-      image: "https://readdy.ai/api/search-image?query=Small%20pineapple%20farm%20field%20in%20Ghana%20with%20young%20pineapple%20plants%20being%20planted%20by%20African%20farmers%2C%20humble%20beginnings%20agricultural%20scene%2C%20rural%20Ghana%20countryside%2C%20founders%20working%20in%20the%20field%2C%20early%20stages%20of%20pineapple%20cultivation%2C%20traditional%20farming%20methods%2C%20small%20scale%20pineapple%20plantation&width=800&height=500&seq=journey-2017&orientation=landscape",
-      fallbackImage: "https://images.unsplash.com/photo-1625246333195-78d9c38ad449?w=800&h=500&fit=crop",
+      image: "/image99.jpg",
+      fallbackImage: "/image99.jpg",
       icon: "ri-seedling-line"
     },
     {
@@ -43,8 +43,8 @@ export default function CompanyHistory() {
       year: "2024",
       title: "Market Growth & Partnerships",
       description: "Strengthened relationships with local and international buyers while maintaining strict quality standards across all our pineapples.",
-      image: "https://readdy.ai/api/search-image?query=Pineapple%20export%20partnership%20meeting%20in%20Ghana%2C%20farm%20representatives%20discussing%20contracts%20with%20buyers%2C%20premium%20pineapples%20on%20display%2C%20agricultural%20business%20partnership%2C%20professional%20meeting%20room&width=800&height=500&seq=journey-2024&orientation=landscape",
-      fallbackImage: "https://images.unsplash.com/photo-1574943320219-553eb213f72d?w=800&h=500&fit=crop",
+      image: "/image98.jpg",
+      fallbackImage: "/image98.jpg",
       icon: "ri-rocket-line"
     },
     {
