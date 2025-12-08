@@ -29,60 +29,60 @@ export default function FarmSection() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
           <ScrollAnimation animation="fade-in-right">
-            <div>
+          <div>
               <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-6 leading-tight">
-                Our Farm in <span className="text-green-600">Marfokrom</span>
-              </h2>
+              Our Farm in <span className="text-green-600">Marfokrom</span>
+            </h2>
               <p className="text-lg text-gray-600 mb-8 leading-relaxed">
-                Nestled in the heart of Ayensuano District, Eastern Region, our 50-hectare farm benefits from Ghana's ideal tropical climate and fertile soil conditions. The region's consistent rainfall and temperature patterns create perfect growing conditions for premium pineapples.
-              </p>
-              
+              Nestled in the heart of Ayensuano District, Eastern Region, our 50-acre farm benefits from Ghana's ideal tropical climate and fertile soil conditions. The region's consistent rainfall and temperature patterns create perfect growing conditions for premium pineapples.
+            </p>
+            
               <div className="space-y-5 mb-8">
                 <ScrollAnimation animation="fade-in-right" delay={100}>
                   <div className="flex items-start space-x-4 group">
                     <div className="w-12 h-12 bg-yellow-100 rounded-lg flex items-center justify-center group-hover:bg-yellow-500 transition-colors duration-300 group-hover:scale-110">
                       <i className="ri-map-pin-line text-yellow-600 text-xl group-hover:text-white transition-colors duration-300"></i>
-                    </div>
-                    <div>
+                </div>
+                <div>
                       <h4 className="font-semibold text-gray-900 mb-1 group-hover:text-green-600 transition-colors duration-300">Strategic Location</h4>
-                      <p className="text-gray-600">Marfokrom, Ayensuano District, Eastern Region, Ghana</p>
-                    </div>
-                  </div>
+                  <p className="text-gray-600">Marfokrom, Ayensuano District, Eastern Region, Ghana</p>
+                </div>
+              </div>
                 </ScrollAnimation>
                 
                 <ScrollAnimation animation="fade-in-right" delay={200}>
                   <div className="flex items-start space-x-4 group">
                     <div className="w-12 h-12 bg-yellow-100 rounded-lg flex items-center justify-center group-hover:bg-yellow-500 transition-colors duration-300 group-hover:scale-110">
                       <i className="ri-landscape-line text-yellow-600 text-xl group-hover:text-white transition-colors duration-300"></i>
-                    </div>
-                    <div>
+                </div>
+                <div>
                       <h4 className="font-semibold text-gray-900 mb-1 group-hover:text-green-600 transition-colors duration-300">Farm Size</h4>
-                      <p className="text-gray-600">50 hectares of cultivated pineapple plantation</p>
-                    </div>
-                  </div>
+                  <p className="text-gray-600">50 acres of cultivated pineapple plantation</p>
+                </div>
+              </div>
                 </ScrollAnimation>
                 
                 <ScrollAnimation animation="fade-in-right" delay={300}>
                   <div className="flex items-start space-x-4 group">
                     <div className="w-12 h-12 bg-yellow-100 rounded-lg flex items-center justify-center group-hover:bg-yellow-500 transition-colors duration-300 group-hover:scale-110">
                       <i className="ri-leaf-line text-yellow-600 text-xl group-hover:text-white transition-colors duration-300"></i>
-                    </div>
-                    <div>
+                </div>
+                <div>
                       <h4 className="font-semibold text-gray-900 mb-1 group-hover:text-green-600 transition-colors duration-300">Farming Methods</h4>
-                      <p className="text-gray-600">Sustainable practices with modern irrigation systems</p>
-                    </div>
-                  </div>
-                </ScrollAnimation>
+                  <p className="text-gray-600">Sustainable practices with modern irrigation systems</p>
+                </div>
               </div>
-              
+                </ScrollAnimation>
+            </div>
+            
               <Link 
                 href="/farm" 
                 className="group inline-flex items-center bg-green-600 text-white px-8 py-4 rounded-full font-semibold hover:bg-green-700 transition-all duration-300 cursor-pointer whitespace-nowrap shadow-lg hover:shadow-xl hover:scale-105 transform"
               >
-                Visit Our Farm
+              Visit Our Farm
                 <i className="ri-arrow-right-line ml-2 transition-transform duration-300 group-hover:translate-x-1"></i>
-              </Link>
-            </div>
+            </Link>
+          </div>
           </ScrollAnimation>
           
           <ScrollAnimation animation="fade-in-left" className="lg:order-2">

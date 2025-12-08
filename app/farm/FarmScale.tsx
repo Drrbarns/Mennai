@@ -26,9 +26,9 @@ export default function FarmScale() {
             <p className="text-sm text-gray-500">Growth cycle from planting to harvest</p>
           </div>
           <div className="bg-white p-8 rounded-lg shadow-sm text-center">
-            <div className="text-4xl font-bold text-yellow-500 mb-2">150+</div>
-            <div className="text-gray-600 font-medium mb-2">Employees</div>
-            <p className="text-sm text-gray-500">Local community members employed</p>
+            <div className="text-4xl font-bold text-yellow-500 mb-2">65</div>
+            <div className="text-gray-600 font-medium mb-2">Workers</div>
+            <p className="text-sm text-gray-500">Permanent workers are 15 and casual workers around 50</p>
           </div>
         </div>
       </div>

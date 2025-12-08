@@ -26,7 +26,7 @@ export default function CommunityImpact() {
                 </div>
                 <div>
                   <h4 className="font-semibold text-gray-900">Employment Opportunities</h4>
-                  <p className="text-gray-600">Direct employment for 150+ local residents with fair wages and benefits</p>
+                  <p className="text-gray-600">Permanent workers are 15 and casual workers around 50, providing direct employment for local residents with fair wages and benefits</p>
                 </div>
               </div>
               
