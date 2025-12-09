@@ -69,7 +69,7 @@ export default function FarmSection() {
                 </div>
                 <div>
                       <h4 className="font-semibold text-gray-900 mb-1 group-hover:text-green-600 transition-colors duration-300">Farming Methods</h4>
-                  <p className="text-gray-600">Sustainable practices with modern irrigation systems</p>
+                  <p className="text-gray-600">Sustainable practices with rain-fed cultivation</p>
                 </div>
               </div>
                 </ScrollAnimation>

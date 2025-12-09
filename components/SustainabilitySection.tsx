@@ -54,7 +54,7 @@ export default function SustainabilitySection() {
                   <div className="w-10 h-10 bg-green-100 rounded-lg flex items-center justify-center group-hover:bg-green-600 transition-colors duration-300 group-hover:scale-110">
                     <i className="ri-drop-line text-green-600 text-xl group-hover:text-white transition-colors duration-300"></i>
                   </div>
-                  <span className="text-gray-700 pt-2 group-hover:text-gray-900 transition-colors duration-300">Water conservation and efficient irrigation systems</span>
+                  <span className="text-gray-700 pt-2 group-hover:text-gray-900 transition-colors duration-300">Water conservation and rainfall optimization</span>
                 </div>
               </ScrollAnimation>
               

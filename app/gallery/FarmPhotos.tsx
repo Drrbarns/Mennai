@@ -27,9 +27,9 @@ export default function FarmPhotos() {
     },
     {
       id: 5,
-      title: "Irrigation System",
-      description: "Modern irrigation keeping our crops healthy",
-      image: "https://readdy.ai/api/search-image?query=Modern%20drip%20irrigation%20system%20watering%20pineapple%20plantation%20rows%2C%20efficient%20water%20management%2C%20sustainable%20farming%20technology%2C%20green%20agricultural%20innovation&width=400&height=300&seq=farm-005&orientation=landscape"
+      title: "Rain-Fed Agriculture",
+      description: "Sustainably grown using natural rainfall",
+      image: "/image8.jpg"
     },
     {
       id: 6,
