@@ -81,7 +81,7 @@ export default function FarmingMethods() {
           </div>
           <div className="order-1 lg:order-2">
             <img 
-              src="https://readdy.ai/api/search-image?query=Organic%20composting%20facility%20at%20pineapple%20farm%2C%20natural%20fertilizer%20production%2C%20sustainable%20soil%20management%2C%20compost%20piles%20with%20agricultural%20workers%2C%20eco-friendly%20farming%20practices%2C%20rich%20dark%20soil%20and%20organic%20matter&width=800&height=600&seq=composting001&orientation=landscape" 
+              src="/image44.jpg" 
               alt="Organic Composting" 
               className="w-full h-80 object-cover object-top rounded-lg shadow-lg"
             />

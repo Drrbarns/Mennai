@@ -14,7 +14,7 @@ export default function FarmGallery() {
       title: "Growing Pineapples"
     },
     {
-      src: "https://readdy.ai/api/search-image?query=Farm%20workers%20tending%20to%20pineapple%20plants%2C%20agricultural%20maintenance%20activities%2C%20workers%20in%20protective%20gear%20caring%20for%20crops%2C%20hands-on%20farming%20operations%2C%20community%20employment%20in%20action%2C%20sustainable%20agriculture%20practices&width=400&height=300&seq=workers001&orientation=landscape",
+      src: "/image33.jpg",
       alt: "Farm Workers",
       title: "Farm Workers"
     },
