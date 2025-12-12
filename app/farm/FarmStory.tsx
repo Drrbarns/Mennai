@@ -18,7 +18,7 @@ export default function FarmStory() {
           </div>
           <div>
             <img 
-              src="https://readdy.ai/api/search-image?query=Portrait%20of%20African%20farmer%20founder%20standing%20proudly%20in%20pineapple%20plantation%2C%20traditional%20farming%20attire%20mixed%20with%20modern%20elements%2C%20confident%20pose%20showing%20leadership%20and%20vision%2C%20golden%20hour%20lighting%20creating%20inspiring%20atmosphere%2C%20documentary%20style%20photography%20capturing%20the%20essence%20of%20agricultural%20entrepreneurship%20in%20Ghana&width=600&height=800&seq=founder001&orientation=portrait" 
+              src="/image33.jpg" 
               alt="Mennai Farms founder" 
               className="w-full h-96 object-cover object-top rounded-lg shadow-lg"
             />

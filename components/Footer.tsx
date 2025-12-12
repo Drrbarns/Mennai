@@ -94,10 +94,38 @@ export default function Footer() {
           <div>
             <h3 className="text-lg font-semibold mb-6 text-white">Our Products</h3>
             <ul className="space-y-3">
-              <li className="text-gray-300 hover:text-green-400 transition-colors duration-300 cursor-default">Fresh Pineapples</li>
-              <li className="text-gray-300 hover:text-green-400 transition-colors duration-300 cursor-default">Export Quality</li>
-              <li className="text-gray-300 hover:text-green-400 transition-colors duration-300 cursor-default">Premium Produce</li>
-              <li className="text-gray-300 hover:text-green-400 transition-colors duration-300 cursor-default">Bulk Orders</li>
+              <li>
+                <Link href="/products" className="text-gray-400 hover:text-green-400 transition-all duration-300 cursor-pointer inline-block hover:translate-x-1 group">
+                  <span className="inline-flex items-center">
+                    Fresh Pineapples
+                    <i className="ri-arrow-right-line ml-1 opacity-0 group-hover:opacity-100 transition-all duration-300"></i>
+                  </span>
+                </Link>
+              </li>
+              <li>
+                <Link href="/products" className="text-gray-400 hover:text-green-400 transition-all duration-300 cursor-pointer inline-block hover:translate-x-1 group">
+                  <span className="inline-flex items-center">
+                    Export Quality
+                    <i className="ri-arrow-right-line ml-1 opacity-0 group-hover:opacity-100 transition-all duration-300"></i>
+                  </span>
+                </Link>
+              </li>
+              <li>
+                <Link href="/products" className="text-gray-400 hover:text-green-400 transition-all duration-300 cursor-pointer inline-block hover:translate-x-1 group">
+                  <span className="inline-flex items-center">
+                    Premium Produce
+                    <i className="ri-arrow-right-line ml-1 opacity-0 group-hover:opacity-100 transition-all duration-300"></i>
+                  </span>
+                </Link>
+              </li>
+              <li>
+                <Link href="/contact" className="text-gray-400 hover:text-green-400 transition-all duration-300 cursor-pointer inline-block hover:translate-x-1 group">
+                  <span className="inline-flex items-center">
+                    Bulk Orders
+                    <i className="ri-arrow-right-line ml-1 opacity-0 group-hover:opacity-100 transition-all duration-300"></i>
+                  </span>
+                </Link>
+              </li>
             </ul>
           </div>
 

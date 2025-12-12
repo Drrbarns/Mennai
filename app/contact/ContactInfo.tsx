@@ -23,10 +23,7 @@ export default function ContactInfo() {
       icon: 'ri-mail-line',
       title: 'Email Addresses',
       details: [
-        'info@mennaifarms.com',
-        'sales@mennaifarms.com',
-        'export@mennaifarms.com',
-        'support@mennaifarms.com'
+        'info@mennaifarms.com'
       ]
     },
     {
