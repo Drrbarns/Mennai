@@ -31,7 +31,9 @@ export default function Footer() {
                 <i className="ri-facebook-fill text-white group-hover:scale-110 transition-transform duration-300"></i>
               </a>
               <a 
-                href="#" 
+                href="https://x.com/mennaifarms" 
+                target="_blank"
+                rel="noopener noreferrer"
                 className="w-10 h-10 flex items-center justify-center bg-green-600/80 rounded-full cursor-pointer hover:bg-green-500 hover:scale-110 transition-all duration-300 group"
                 aria-label="Twitter"
               >
