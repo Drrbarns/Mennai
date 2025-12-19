@@ -22,7 +22,9 @@ export default function Footer() {
             </p>
             <div className="flex space-x-3">
               <a 
-                href="#" 
+                href="https://www.facebook.com/share/1AJpSVT2Pj/" 
+                target="_blank"
+                rel="noopener noreferrer"
                 className="w-10 h-10 flex items-center justify-center bg-green-600/80 rounded-full cursor-pointer hover:bg-green-500 hover:scale-110 transition-all duration-300 group"
                 aria-label="Facebook"
               >
@@ -36,7 +38,9 @@ export default function Footer() {
                 <i className="ri-twitter-fill text-white group-hover:scale-110 transition-transform duration-300"></i>
               </a>
               <a 
-                href="#" 
+                href="https://www.instagram.com/mennaifarms/" 
+                target="_blank"
+                rel="noopener noreferrer"
                 className="w-10 h-10 flex items-center justify-center bg-green-600/80 rounded-full cursor-pointer hover:bg-green-500 hover:scale-110 transition-all duration-300 group"
                 aria-label="Instagram"
               >
