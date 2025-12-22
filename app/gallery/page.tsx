@@ -25,11 +25,11 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Farm Gallery - Mennai Farms Visual Tour",
     description: "Explore our pineapple farm through stunning photos. See our plantation, operations, and beautiful landscapes in Ghana.",
-    url: "https://mennai-farms.com/gallery",
+    url: "https://www.mennaifarms.com/gallery",
     siteName: "Mennai Farms",
     images: [
       {
-        url: "https://mennai-farms.com/logo.png",
+        url: "https://www.mennaifarms.com/logo.png",
         width: 1200,
         height: 630,
         alt: "Mennai Farms Gallery",
@@ -42,7 +42,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Farm Gallery - Mennai Farms Visual Tour",
     description: "Explore our pineapple farm through stunning photos.",
-    images: ["https://mennai-farms.com/logo.png"],
+    images: ["https://www.mennaifarms.com/logo.png"],
   },
   robots: {
     index: true,
@@ -56,7 +56,7 @@ export const metadata: Metadata = {
     },
   },
   alternates: {
-    canonical: "https://mennai-farms.com/gallery",
+    canonical: "https://www.mennaifarms.com/gallery",
   },
 };
 

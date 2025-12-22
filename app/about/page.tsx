@@ -28,11 +28,11 @@ export const metadata: Metadata = {
   openGraph: {
     title: "About Mennai Farms - Our Story & Mission",
     description: "Discover our journey from 2017 to becoming Ghana's leading pineapple producer. Learn about our sustainable farming practices and commitment to quality.",
-    url: "https://mennai-farms.com/about",
+    url: "https://www.mennaifarms.com/about",
     siteName: "Mennai Farms",
     images: [
       {
-        url: "https://mennai-farms.com/logo.png",
+        url: "https://www.mennaifarms.com/logo.png",
         width: 1200,
         height: 630,
         alt: "About Mennai Farms",
@@ -45,7 +45,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "About Mennai Farms - Our Story & Mission",
     description: "Discover our journey from 2017 to becoming Ghana's leading pineapple producer.",
-    images: ["https://mennai-farms.com/logo.png"],
+    images: ["https://www.mennaifarms.com/logo.png"],
   },
   robots: {
     index: true,
@@ -59,7 +59,7 @@ export const metadata: Metadata = {
     },
   },
   alternates: {
-    canonical: "https://mennai-farms.com/about",
+    canonical: "https://www.mennaifarms.com/about",
   },
 };
 

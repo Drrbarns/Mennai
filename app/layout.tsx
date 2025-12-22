@@ -21,7 +21,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://mennai-farms.com'), // Update with your actual domain
+  metadataBase: new URL('https://www.mennaifarms.com'),
   title: {
     default: "Mennai Farms - Premium Pineapples from Ghana | Sustainable Farming",
     template: "%s | Mennai Farms"
@@ -49,13 +49,13 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://mennai-farms.com",
+    url: "https://www.mennaifarms.com",
     siteName: "Mennai Farms",
     title: "Mennai Farms - Premium Pineapples from Ghana",
     description: "Leading pineapple producer in Ghana specializing in premium quality through sustainable farming practices. Exporting globally from Marfokrom, Ayensuano District.",
     images: [
       {
-        url: "https://mennai-farms.com/og-image.jpg", // Update with actual OG image
+        url: "https://www.mennaifarms.com/og-image.jpg",
         width: 1200,
         height: 630,
         alt: "Mennai Farms - Premium Pineapples from Ghana",
@@ -66,7 +66,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Mennai Farms - Premium Pineapples from Ghana",
     description: "Leading pineapple producer in Ghana specializing in premium quality through sustainable farming practices.",
-    images: ["https://mennai-farms.com/og-image.jpg"], // Update with actual Twitter image
+    images: ["https://www.mennaifarms.com/og-image.jpg"],
   },
   robots: {
     index: true,
@@ -86,7 +86,7 @@ export const metadata: Metadata = {
     // yahoo: "your-yahoo-verification-code",
   },
   alternates: {
-    canonical: "https://mennai-farms.com",
+    canonical: "https://www.mennaifarms.com",
   },
   icons: {
     icon: [
@@ -115,11 +115,11 @@ export default function RootLayout({
           data={{
             "@context": "https://schema.org",
             "@type": "AgriculturalBusiness",
-            "@id": "https://mennai-farms.com/#organization",
+            "@id": "https://www.mennaifarms.com/#organization",
             name: "Mennai Farms",
             alternateName: "Mennai Farms Pineapple Plantation",
-            url: "https://mennai-farms.com",
-            logo: "https://mennai-farms.com/logo.png",
+            url: "https://www.mennaifarms.com",
+            logo: "https://www.mennaifarms.com/logo.png",
             description:
               "Leading pineapple producer in Ghana specializing in premium quality through sustainable farming practices.",
             address: {
@@ -129,7 +129,7 @@ export default function RootLayout({
               addressCountry: "GH",
             },
             areaServed: "Global",
-          foundingDate: "2017",
+            foundingDate: "2017",
             knowsAbout: [
               "Pineapple Farming",
               "Sustainable Agriculture",

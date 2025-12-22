@@ -34,11 +34,11 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Mennai Farms - Premium Pineapples from Ghana | Sustainable Farming",
     description: "Discover Ghana's premier pineapple producer. Sustainable farming, premium quality, global reach. Located in Marfokrom, Ayensuano District.",
-    url: "https://mennai-farms.com",
+    url: "https://www.mennaifarms.com",
     siteName: "Mennai Farms",
     images: [
       {
-        url: "https://mennai-farms.com/logo.png",
+        url: "https://www.mennaifarms.com/logo.png",
         width: 1200,
         height: 630,
         alt: "Mennai Farms - Premium Pineapples from Ghana",
@@ -51,7 +51,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Mennai Farms - Premium Pineapples from Ghana",
     description: "Ghana's premier pineapple producer. Sustainable farming, premium quality, global reach.",
-    images: ["https://mennai-farms.com/logo.png"],
+    images: ["https://www.mennaifarms.com/logo.png"],
   },
   robots: {
     index: true,
@@ -65,7 +65,7 @@ export const metadata: Metadata = {
     },
   },
   alternates: {
-    canonical: "https://mennai-farms.com",
+    canonical: "https://www.mennaifarms.com",
   },
 };
 
@@ -77,10 +77,10 @@ export default function Home() {
           "@context": "https://schema.org",
           "@type": "WebSite",
           name: "Mennai Farms",
-          url: "https://mennai-farms.com",
+          url: "https://www.mennaifarms.com",
           potentialAction: {
             "@type": "SearchAction",
-            target: "https://mennai-farms.com/search?q={search_term_string}",
+            target: "https://www.mennaifarms.com/search?q={search_term_string}",
             "query-input": "required name=search_term_string",
           },
         }}

@@ -25,11 +25,11 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Contact Mennai Farms - Get in Touch",
     description: "Get in touch with Mennai Farms for wholesale orders, partnerships, or farm visits. Located in Marfokrom, Ayensuano District, Ghana. Phone: +233249240156.",
-    url: "https://mennai-farms.com/contact",
+    url: "https://www.mennaifarms.com/contact",
     siteName: "Mennai Farms",
     images: [
       {
-        url: "https://mennai-farms.com/logo.png",
+        url: "https://www.mennaifarms.com/logo.png",
         width: 1200,
         height: 630,
         alt: "Contact Mennai Farms",
@@ -42,7 +42,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Contact Mennai Farms - Get in Touch",
     description: "Get in touch with Mennai Farms for wholesale orders, partnerships, or farm visits.",
-    images: ["https://mennai-farms.com/logo.png"],
+    images: ["https://www.mennaifarms.com/logo.png"],
   },
   robots: {
     index: true,
@@ -56,7 +56,7 @@ export const metadata: Metadata = {
     },
   },
   alternates: {
-    canonical: "https://mennai-farms.com/contact",
+    canonical: "https://www.mennaifarms.com/contact",
   },
 };
 
@@ -67,9 +67,9 @@ export default function ContactPage() {
         data={{
           "@context": "https://schema.org",
           "@type": "LocalBusiness",
-          "@id": "https://mennai-farms.com/#business",
+          "@id": "https://www.mennaifarms.com/#business",
           name: "Mennai Farms",
-          image: "https://mennai-farms.com/logo.png",
+          image: "https://www.mennaifarms.com/logo.png",
           description: "Leading pineapple producer in Ghana specializing in premium quality through sustainable farming practices.",
           address: {
             "@type": "PostalAddress",
@@ -86,7 +86,7 @@ export default function ContactPage() {
           },
           telephone: "+233249240156",
           email: "info@mennaifarms.com",
-          url: "https://mennai-farms.com",
+          url: "https://www.mennaifarms.com",
           priceRange: "$$",
           openingHoursSpecification: [
             {

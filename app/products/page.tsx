@@ -30,11 +30,11 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Premium Pineapple Varieties - Mennai Farms",
     description: "Discover our premium pineapple varieties MD2, Smooth Cayenne, and Sugarloaf. Export quality pineapples from Ghana.",
-    url: "https://mennai-farms.com/products",
+    url: "https://www.mennaifarms.com/products",
     siteName: "Mennai Farms",
     images: [
       {
-        url: "https://mennai-farms.com/logo.png",
+        url: "https://www.mennaifarms.com/logo.png",
         width: 1200,
         height: 630,
         alt: "Mennai Farms Products",
@@ -47,7 +47,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Premium Pineapple Varieties - Mennai Farms",
     description: "Discover our premium pineapple varieties MD2, Smooth Cayenne, and Sugarloaf.",
-    images: ["https://mennai-farms.com/logo.png"],
+    images: ["https://www.mennaifarms.com/logo.png"],
   },
   robots: {
     index: true,
@@ -61,7 +61,7 @@ export const metadata: Metadata = {
     },
   },
   alternates: {
-    canonical: "https://mennai-farms.com/products",
+    canonical: "https://www.mennaifarms.com/products",
   },
 };
 

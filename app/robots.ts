@@ -11,7 +11,7 @@ export default function robots(): MetadataRoute.Robots {
         disallow: ['/api/', '/_next/', '/admin/'],
       },
     ],
-    sitemap: 'https://mennai-farms.com/sitemap.xml',
+    sitemap: 'https://www.mennaifarms.com/sitemap.xml',
   };
 }
 

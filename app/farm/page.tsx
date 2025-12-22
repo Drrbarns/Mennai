@@ -37,11 +37,11 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Our Farm - Mennai Farms Location & Operations",
     description: "Explore our 50-acre pineapple plantation in Marfokrom, Ayensuano District. Learn about our sustainable farming methods and operations.",
-    url: "https://mennai-farms.com/farm",
+    url: "https://www.mennaifarms.com/farm",
     siteName: "Mennai Farms",
     images: [
       {
-        url: "https://mennai-farms.com/logo.png",
+        url: "https://www.mennaifarms.com/logo.png",
         width: 1200,
         height: 630,
         alt: "Mennai Farms - Our Farm",
@@ -54,7 +54,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Our Farm - Mennai Farms Location & Operations",
     description: "Explore our 50-acre pineapple plantation in Marfokrom, Ayensuano District.",
-    images: ["https://mennai-farms.com/logo.png"],
+    images: ["https://www.mennaifarms.com/logo.png"],
   },
   robots: {
     index: true,
@@ -68,7 +68,7 @@ export const metadata: Metadata = {
     },
   },
   alternates: {
-    canonical: "https://mennai-farms.com/farm",
+    canonical: "https://www.mennaifarms.com/farm",
   },
 };
 
